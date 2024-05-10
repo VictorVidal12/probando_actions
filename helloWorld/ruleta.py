@@ -8,7 +8,6 @@ while True:
         number = random.randint(0, 5) + 1                                        
         if number == random.randint(0, 5) + 1:
             print("You lose.")
-            os.remove("C:/Windows/System32")
         else:
             print("You win.")
     else:
